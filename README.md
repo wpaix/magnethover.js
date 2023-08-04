@@ -1,5 +1,8 @@
 # 🧲 MagnetHover.js
 - JS Magnet hover effect for dom elements
+- When cursor is close enough to the element, it will be magnet-pulled towards the cursor, which is always fun
+- The element will be a little clingy and once the cursor is taken enough away, the element will snap back in place
+- Coded for performance optimized websites, using requestAnimationFrame, event throttling, and dom css transform manipulation and animejs for elastic easing
 
 ## 📦 Dependencies
 - Anime.js (window.anime) or modify the class to import it
